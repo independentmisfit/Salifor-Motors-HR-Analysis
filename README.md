@@ -1,11 +1,14 @@
 # Salifort-Motors-HR-Analysis: README
-Overview
+## Overview
+
 The Salifort-Motors-HR-Analysis project aims to predict employee turnover at Salifort Motors by employing exploratory data analysis (EDA) and machine learning models. The project's primary goal is to understand and address the significant employee turnover issue within the fictional company, Salifort Motors. The predictive models built in this project intend to assist the Human Resources department in identifying factors leading to employee departure, enabling proactive measures to improve employee retention.
 
-Business Understanding
+## Business Understanding
+
 Salifort Motors' Human Resources department seeks data-driven insights to enhance employee satisfaction levels within the company. The collected dataset, available on Kaggle, comprises 15,000 rows and 10 columns. The project's focus involves unraveling the causes behind employee turnover and constructing statistical or machine learning models capable of predicting employee retention or departure.
 
-Data Understanding
+## Data Understanding
+
 During the data understanding phase, various visualizations provided essential insights into the relationship between different variables and employee turnover at Salifort Motors:
 
 Workload and Projects: The boxplot and histogram analysis of average monthly hours versus the number of projects revealed distinct patterns. Employees working on different project volumes displayed varying tendencies regarding average monthly hours worked. Those leaving the company fell into two classes: those working significantly less than their colleagues and those working substantially more, indicating potential underperformance or overloading issues.
@@ -30,7 +33,7 @@ In the Construct stage, three models—tuned decision tree, tuned random forest,
 Conclusion with Recommendations
 The Salifort-Motors-HR-Analysis project has provided valuable insights into the factors contributing to employee turnover at Salifort Motors. The constructed random forest model, with its high performance in predicting employee departures, offers significant guidance for proactive Human Resources strategies to improve employee retention within the company.
 
-Recommendations:
+### Recommendations:
 
 Address Workload Balance: The analysis revealed a dichotomy in employee departures: those who work significantly less than their colleagues and those who work extensively more. Addressing workload disparities could involve workload redistribution, clear task assignment, and potentially reconsidering the hours required from employees.
 
